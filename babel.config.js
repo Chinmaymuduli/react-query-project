@@ -13,6 +13,7 @@ module.exports = {
           styles: './src/styles',
           screens: './src/screens',
           utils: './src/utils',
+          types: './src/types',
         },
       },
     ],

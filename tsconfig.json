@@ -5,6 +5,53 @@
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Completeness */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */,
+    "baseUrl": "./",
+    "paths": {
+      "api": [
+        "src/api"
+      ],
+      "app": [
+        "src/app"
+      ],
+      "assets": [
+        "src/assets"
+      ],
+   
+      "components": [
+        "src/components"
+      ],
+    
+      "configs": [
+        "src/configs"
+      ],     
+      "constant": [
+        "src/constant"
+      ],
+      "hooks": [
+        "src/hooks"
+      ],
+      "layouts": [
+        "src/layouts"
+      ],
+      "routes": [
+        "src/routes"
+      ],
+      "schemas": [
+        "src/schemas"
+      ],
+      "screens": [
+        "src/screens"
+      ],
+      "styles": [
+        "src/styles"
+      ],
+      "utils": [
+        "src/utils"
+      ],
+      "types": [
+        "src/types"
+      ]
+    },
   }
 }
