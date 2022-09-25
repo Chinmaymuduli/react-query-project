@@ -8,14 +8,15 @@
  * @format
  */
 
+import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import {Text} from 'react-native';
+import PrivateRoutes from './src/routes/PrivateRoutes';
 
 const App = () => {
   return (
-    <>
-      <Text>Hello Demo Project</Text>
-    </>
+    <NavigationContainer>
+      <PrivateRoutes />
+    </NavigationContainer>
   );
 };
 
