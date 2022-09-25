@@ -11,11 +11,14 @@
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import PrivateRoutes from './src/routes/PrivateRoutes';
+import {Provider as PaperProvider} from 'react-native-paper';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <PrivateRoutes />
+      <PaperProvider>
+        <PrivateRoutes />
+      </PaperProvider>
     </NavigationContainer>
   );
 };
